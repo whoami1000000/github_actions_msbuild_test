@@ -1,6 +1,7 @@
 #pragma once
 
-inline int sum(int a, int b)
+template <typename T>
+inline T sum(T a, T b)
 {
    return a + b;
 }
